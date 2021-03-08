@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Insert title here</title>
+        <link rel="stylesheet" href="common/bootstrap-4.6.0/css/bootstrap.min.css">
+        <script src="common/js/jquery-3.5.1.min.js"></script>
+        <script src="common/bootstrap-4.6.0/js/bootstrap.bundle.min.js"></script>
+        <script src="common/bootstrap-4.6.0/js/bootstrap.min.js"></script>
+         <style type="text/css">
+        .header{
+            background-color: #748ffc;
+            padding: 30px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .section{
+        	display:flex;
+        }
+        
+        .left{
+            flex:1;
+            border-right:1px solid black;
+            background-color: #9c36b5;
+            padding:10px;
+        }
+
+        .left ul{
+            list-style-type: none;
+            padding:30px;
+        }
+        .left ul li{
+            font-size:1.2rem;
+        }
+        .content{
+         	flex:4;
+           
+        }
+        .footer{
+          
+            text-align:center;
+            background-color:#a5d8ff;
+            height:100%;
+            padding:2.2rem;
+        }
+        .footer.h1{
+            text-align: center;
+            font-size:2em;
+            font-weight: bold;
+           
+        }
+      </style>
+   </head>
+   <body>
+       <div class="header">
+           Cities
+       </div>
+       <div class="container-fluid">
+            <div class="row">
+            	<div class="col-sm-4 border">
+                <ul>
+                    <li>London</li>
+                    <li>paris</li>
+                    <li>seoul</li>
+                </ul>
+            </div>
+            
+            <div class="col-sm-8 border">
+                <h1>London</h1>
+                <p>...</p>
+            </div>
+       </div>
+       <div class="footer">
+            <h1>FOOTER</h1>
+       </div>
+    </body>
+</html>
